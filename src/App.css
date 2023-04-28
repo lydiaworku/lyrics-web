@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 60s linear, App-logo-color-change linear infinite 3s;
+  /* fill: red; */
+}
+
+.App-logo > svg {
+  height: 64px;
+}
+
+.App-header {
+  animation: color-change 3s infinite;
+  background-color: #c7d8faab;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #647bbe;
+}
+
+.clickherebutton {
+  animation: background-color-change 3s infinite;
+  border-radius: 30px;
+  height: 1.5em;
+  width: 5.4em;
+  color: #ffffff;
+  border: none;
+  cursor: url(../star.svg), pointer;
+}
+
+.App-link {
+  color: #ffffff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes App-logo-color-change {
+  0% {
+    color: #647bbe;
+  }
+  20% {
+    color: #2058f4;
+  }
+  40% {
+    color: #5676d7;
+  }
+  60% {
+    color: #4066ce;
+  }
+  80% {
+    color: #5b68d8;
+  }
+  100% {
+    color: #647bbe;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #647bbe;
+  }
+  20% {
+    color: #2058f4;
+  }
+  40% {
+    color: #5676d7;
+  }
+  60% {
+    color: #4066ce;
+  }
+  80% {
+    color: #5b68d8;
+  }
+  100% {
+    color: #647bbe;
+  }
+}
+
+@keyframes background-color-change {
+  0% {
+    background-color: #647bbe;
+  }
+  20% {
+    background-color: #2058f4;
+  }
+  40% {
+    background-color: #5676d7;
+  }
+  60% {
+    background-color: #4066ce;
+  }
+  80% {
+    background-color: #5b68d8;
+  }
+  100% {
+    background-color: #647bbe;
+  }
+}
